@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime World</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- ==== REMIXICON CDN ==== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+        <!-- ==== NAVBAR ==== -->
+        <nav class="nav">
+            <div class="logo">
+                <h2>Anime<span>World</span></h2>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">Home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">Series</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">Movies</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">News</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero_section">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">
+                        Welcome to <span>Anime World</span>
+                        <br />
+                        Explore Your Favorite Series.
+                    </h1>
+                    <p class="info-text">
+                        Discover the latest and greatest anime series and movies from all genres. Dive into the world of Anime with us.
+                    </p>
+
+                    <div class="btn_wrapper">
+                        <button class="btn explore_btn">
+                            Explore Now <i class="ri-arrow-right-line"></i>
+                        </button>
+                        <button class="btn latest_btn">Latest News</button>
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <div class="anime_img_wrapper">
+                        <img src="./img/anime_bg.jpg" alt="anime-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features_section">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-cols-3">
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-fire-line"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span class="title">Top Trending Series</span>
+                        <p>
+                            Stay updated with the most popular and trending anime series that everyone is talking about.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-movie-line"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span class="title">Latest Movies</span>
+                        <p>
+                            Don't miss out on the latest anime movies. Find out what's new in the anime world.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-newspaper-line"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span class="title">News & Updates</span>
+                        <p>
+                            Get the latest news and updates from the anime industry, all in one place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Anime World. All rights reserved.</p>
+    </footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN ==== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+</body>
+</html>
